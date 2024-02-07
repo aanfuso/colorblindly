@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Colorblind",
+  "description": "Change visited links color.",
+  "version": "0.1.0",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Colorblind browser helper.",
+    "default_popup": "index.html"
+  },
+  "permissions": [ "storage" ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/*"],
+      "css":     ["main.css"],
+      "js":      ["colorblind.js"]
+    }
+  ]
+}
