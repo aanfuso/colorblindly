@@ -3,7 +3,7 @@
   "name": "Colorblindly",
   "description": "Help colorblind people differentiate visited links.",
   "version": "0.1.0",
-  "browser_action": {
+  "action": {
     "default_icon": "icon.png",
     "default_title": "Colorblindly",
     "default_popup": "index.html"
