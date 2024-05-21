@@ -8,7 +8,7 @@
     "default_title": "Colorblindly",
     "default_popup": "index.html"
   },
-  "permissions": [ "storage" ],
+  "permissions": [],
   "content_scripts": [
     {
       "matches": ["https://www.google.com/*"],
